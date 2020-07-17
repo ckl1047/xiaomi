@@ -1,0 +1,346 @@
+@charset "utf-8";
+#zhuce{
+    height: 591px;
+    width: 100%;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+}
+#zhuce form{
+    height: 591px;
+    width: 350px;
+    padding: 50px 20px 100px;
+    margin: 0 216px;
+}
+#zhuce h4{
+    color: #101920;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: 20px;
+}
+#zhuce #user{
+    height: 40px;
+    width: 310px;
+    font-size: 16px;
+    color: #828282;
+}
+#zhuce h6{
+    width: 310px;
+    height: 32px;
+    padding: 6px 0;
+    color: #101920;
+    font-size: 12px;
+}
+#zhuce #pass,#again{
+    width: 310px;
+    height: 40px;
+    background-color: #f9f9f9;
+    padding: 8px 30px 8px 50px;
+}
+#zhuce h5{
+    color: #666666;
+    padding: 0 20px;
+    height: 40px;
+    width: 310px;
+    font-size: 12px;
+    text-align: center;
+}
+#zhuce #sub{
+    height: 40px;
+    width: 310px;
+    background-color: #eb0028;
+    padding: 0 14px;
+    color: #f9f9f9;
+    font-size: 14px;
+}
+#zhuce .denglu{
+    display: block;
+    width: 310px;
+    line-height: 23px;
+    color: #0099cc;
+    font-size: 14px;
+    text-align: center;
+}
+header{
+    height: 60px;
+    width: 100%;
+    position: relative;
+    background-color: white;
+    border-bottom: 1px solid #efefef;
+}
+header .img{
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    z-index: 1;
+}
+header .nav1{
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+
+}
+header .nav1 li {
+    float: left;
+    font-size: 14px;
+    padding: 0 20px;
+    line-height: 60px;
+}
+header .nav1 li a{
+    display: block;
+    color: black;
+    height: 60px;
+}
+header .nav2{
+    display: none;
+    position: absolute;
+    top: 59px;
+    left: 0;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    width: 100%;
+    border-top:1px solid #666666;
+    background-color: white;
+    z-index: -11;
+}
+
+header .nav2 h4{
+    margin: -10px;
+}
+header .nav2 li .iconfont{
+    font-size: 40px;
+}
+header .li1:hover .nav2{
+    z-index: 11;
+}
+header .li1:hover{
+    border-bottom: 3px solid red;
+}
+header .li1 .nav2 li:hover a{
+    color: red;
+}
+header .box{
+    position: absolute;
+    right: 0;
+    width: 84px;
+    display: flex;
+    justify-content: center;
+}
+header .box .aaa{
+    display: block;
+    height: 60px;
+    float: left;
+}
+header .box .iconfont{
+    line-height: 60px;
+    font-size: 22px;
+    padding: 0 10px;
+    color: black;
+}
+header .con{
+    height: 60px;
+    position: relative;
+}
+header .con .cona{
+    position: absolute;
+    top: 60px;
+    height: 240px;
+    width: 300px;
+    right: -42px;
+    background-color: white;
+    z-index: -11;
+    padding: 10px;
+}
+header .con .cona li{
+    height: 25%;
+    width: 100%;
+    line-height: 55px;
+    border-bottom: 1px solid #666666;
+}
+header .con .cona li a{
+    display: block;
+    color: #666666;
+    font-size: 14px;
+
+}
+header .con2{
+    position: relative;
+}
+header .con2 a{
+    display: block;
+    height: 60px;
+    width: 100%;
+}
+header .con2 ul{
+    position: absolute;
+    right: 0;
+    height: 150px;
+    width: 400px;
+    background-color: white;
+    z-index: -1;
+}
+header .con2 ul li{
+    text-align: center;
+    line-height: 100px;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #666666;
+}
+header .con2 ul li a{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+header .con2 div{
+    height:40px;
+    width: 340px;
+    background-color: red;
+    line-height: 40px;
+}
+header .con2 div a{
+    height: 100%;
+    width: 100%;
+    color: white;
+}
+header .con2:hover a{
+    border-bottom: 3px solid red;
+}
+header .con2:hover ul{
+    z-index: 111;
+}
+header .con:hover .cona{
+    z-index: 111;
+}
+header .con:hover .aaa{
+    border-bottom: 3px solid red;
+}
+header .con .cona li a:hover{
+    color: red;
+}
+#in{
+    overflow: hidden;
+}
+#in-wrap{
+    height: 340px;
+    width: 1200px;
+    margin: 0 auto;
+}
+#in .in1{
+    width: 237px;
+    padding: 0 20px;
+    padding-top: 20px;
+    float: left;
+}
+#in .in1 h3{
+    font-size: 16px;
+    line-height: 50px;
+}
+#in .in1 li a{
+    display: block;
+    line-height: 40px;
+    font-size: 16px;
+    color: #828282;
+}
+/* on */
+#on{
+    padding: 20px;
+    border-bottom: 1px solid #666666;
+    overflow: hidden;
+}
+#on-wrap{
+    height: 80px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#on-wrap .text{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+#on-wrap .textl{
+    line-height: 40px;
+    font-size: 14px;
+    text-align: center;
+}
+#on-wrap .textl a{
+    color: #0099cc;
+}
+#on-wrap .textr{
+    display: flex;
+    height: 40px;
+}
+#on-wrap .textr .iconfont{
+    font-size: 20px;
+    line-height: 40px;
+}
+#on-wrap .textr a{
+    color: #0099cc;
+}
+#on-wrap .textr h4{
+    font-size: 14px;
+    line-height: 40px;
+    padding: 0 15px;
+}
+#on-wrap .textr h5{
+    font-size: 14px;
+    line-height: 40px;
+    color: #666666;
+    padding-right: 15px;
+}
+#on-wrap .textr .aaa{
+    color: #666666;
+    margin: 0 5px;
+}
+/* footer */
+footer{
+    height: 151px;
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+footer .top{
+    min-height: 60px;
+    padding-left: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+footer .top .left{
+    padding:  20px 0;
+    height: 64px;
+}
+footer .top .right{
+    height: 64px;
+}
+footer .top .right a{
+    padding: 0 20px 8px 20px;
+    color: black;
+    font-size: 12px;
+}
+footer .top .right li{
+    float: left;
+    line-height: 64px;
+}
+footer .btm{
+    padding: 20px;
+}
+footer .btm .left{
+    color: #666666;
+}
+footer .btm .left h4{
+    font-size: 12px;
+}
+footer .btm .left h5{
+    font-size: 12px;
+}

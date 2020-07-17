@@ -1,0 +1,198 @@
+@charset "utf-8";
+#lunbo{
+    height: 348px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    background-color: white;
+}
+#lunbo #img-box{
+    height: 348px;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0;
+}
+#img-box img {
+    position: absolute;
+    left: 0px;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+#img-box img:nth-child(1) {
+    opacity:1;
+}
+#lunbo ul {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-5%);
+    bottom: 10px;
+    width: 100%;
+    height: 26px;
+    z-index: 5;
+}
+#lunbo ul li {
+    float: left;
+    width: 40px;
+    height: 2px;
+    margin: 0 10px;
+    padding: 9px 10px;
+    background:rgba(249, 249, 249,.3);
+}
+#lunbo ul li:nth-of-type(1) {
+    background-color: #666666;
+}
+#lunbo .span {
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    background: rgba(216, 216, 216,.3);
+
+    z-index: 501;
+}
+#lunbo .span:nth-of-type(1) {
+    left: 10%;
+}
+#lunbo .span:nth-of-type(2) {
+    right: 10%;
+}
+/* list */
+#list{
+    height: 60px;
+    width: 100%;
+}
+#list-wrap{
+    width: 350px;
+    height: 100%;
+    margin: 0 auto;
+}
+#list li{
+    height: 40px;
+    width: 114px;
+    float: left;
+    position: relative;
+
+}
+#list a{
+    width: 114px;
+    height: 40px;
+    float: left;
+    padding: 8px 34px 8px 16px;
+    font-size: 16px;
+}
+#list a{
+    color: #101920;
+}
+#list .navS{
+    min-height: 100px;
+    width: 150px;
+    border: 1px solid #828282;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    display: none;
+    z-index: 2;
+    background-color: white;
+}
+#list .navS li{
+    width: 100%;
+    height: 40px;
+}
+#list .navS li:hover{
+    background-color: #828282;
+}
+/* phone */
+#phone{
+    width: 100%;
+    min-height: 200px;
+}
+#phone-wrap{
+    columns:4;
+    column-gap: 0;
+}
+#phone img{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+#phone .img{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+#phone #img-tag{
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+#phone #img-tag img:nth-child(1){
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#phone #img-tag img:nth-child(2){
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#phone-wrap .img:hover{
+    opacity: 0.5;
+}
+/* phone lunbo2 */
+#lunbo2{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+#lunbo2 #img-tag{
+    left: 0px;
+    top: 0;
+}
+#img-tag img {
+    left: 0px;
+    top: 0;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+}
+#img-tag img:nth-child(1) {
+    opacity:1;
+}
+#lunbo2 .span {
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    background: rgba(216, 216, 216,.3);
+    opacity: 0;
+    z-index: 5;
+}Y
+#lunbo2 .span:nth-of-type(1) {
+    left: 0px;
+}
+#lunbo2 .span:nth-of-type(2) {
+    right: 0px;
+}
+#lunbo2:hover .span{
+    opacity: 1;
+}
+#lunbo2:hover .img{
+    opacity: 0.5;
+}
